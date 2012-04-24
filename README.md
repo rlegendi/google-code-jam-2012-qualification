@@ -30,3 +30,7 @@ Hotkeys for Ctrl + Shift + N on the project explorer.
 ## Specs2 ##
 
 * Syntax highlight for should/in/must/etc.
+
+# Some verifier things #
+
+* Warning when return is Unit (or not specified) and last line is a value

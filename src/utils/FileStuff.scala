@@ -9,13 +9,11 @@ object FileStuff {
     val dataLength = allLines.first.toInt
 
     if (dataLength < 1 || maxTestCases < dataLength) {
-      throw new IllegalArgumentException("Data length must be in interval [1, 30], was " + dataLength)
+      throw new IllegalArgumentException("Data length must be in interval [1, " + maxTestCases + "], was " + dataLength)
     }
 
-    // HELPME If I write tail() here, it is erroneous
     val data = allLines.tail
 
-    // HELPME But! Here I can write it...
     if (dataLength != data.size) {
       throw new IllegalArgumentException("Data length does not fit lines in file; dataLength=" + dataLength + ", data.length=" + data.length)
     }
