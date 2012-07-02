@@ -44,3 +44,11 @@ Hotkeys for Ctrl + Shift + N on the project explorer.
 # Some verifier things #
 
 * Warning when return is Unit (or not specified) and last line is a value
+
+# Links #
+
+Unfortunately, I cannot find any time for this project recently, but leave a few hints here:
+
+* [Some Scala solution](https://raw.github.com/hierynomus/google-code-jam/master/src/main/scala/gcj12/qualify/DancingWithTheGooglers.scala) here at Github
+* [Set of solutions](http://www.go-hero.net/jam/12/solutions/0/1/Scala) in various programming language
+
