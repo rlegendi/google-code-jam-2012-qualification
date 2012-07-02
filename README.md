@@ -29,6 +29,12 @@ A few things I spotted in the Scala IDE.
 
 Hotkeys for Ctrl + Shift + N on the project explorer.
 
+* Ctrl + Click on function with not matching actual parameter but matchin
+  name should jump to there (or ask where to jump).
+  
+* Ctrl + Shift + F should not set the current editor's file to "dirty" when
+  no formatting were performed.  
+
 # IDEAS #
 
 ## Specs2 ##
